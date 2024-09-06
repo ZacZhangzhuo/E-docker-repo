@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+    test:
+        build:
+            context: ..
+            dockerfile: Dockerfile
+        volumes:
+            - ../..:/workspace:cached
+        # keep the container running, in case you want to attach to it.
+        command: /bin/sh -c "while sleep 1000; do :; done"
