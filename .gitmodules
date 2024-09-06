@@ -1,4 +1,3 @@
 [submodule "E-description"]
 	path = E-description
 	url = https://github.com/ZacZhangzhuo/E-description.git
-    branch = main
